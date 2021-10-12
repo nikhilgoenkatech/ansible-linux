@@ -16,14 +16,14 @@
       3: Xfce\n
       4: Mate\n"
       private: no
-      default: 1
+      default: 0 
       
     - name: 'linux_webgui_selection'
       prompt: "\nChoose the Web GUI you want to install [ 1/2/3/4] \n\n
       0: Don't install any Web GUI\n
       1: cockpit \n"
       private: no
-      default: 1
+      default: 0 
 
   vars:
     linux_desktop_select:
